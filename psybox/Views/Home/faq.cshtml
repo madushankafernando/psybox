@@ -1,5 +1,6 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Faq";
+    Layout = "/Views/Shared/_ServicesLayout.cshtml";
 }
 
 
@@ -33,12 +34,12 @@
                 <div class="row">
                     <div class="col-12">
                         <nav class="nav nav-tabs justify-content-center">
-                            <a href="about-us.html" class="nav__link">About Us</a>
-                            <a href="why-us.html" class="nav__link">Why Choose Us</a>
-                            <a href="leadership-team.html" class="nav__link">Leadership Team</a>
-                            <a href="awards.html" class="nav__link">Awards & Recognition</a>
-                            <a href="faqs.html" class="nav__link active">Help & FAQs</a>
-                            <a href="careers.html" class="nav__link">Careers</a>
+                            <a asp-action="AboutUs" asp-controller="Home" class="nav__link">About Us</a>
+                            <a asp-action="WhyChooseUs" asp-controller="Home" class="nav__link">Why Choose Us</a>
+                            <a asp-action="LeaderShip" asp-controller="Home" class="nav__link">Leadership Team</a>
+                            <a asp-action="Awards" asp-controller="Home" class="nav__link">Awards & Recognition</a>
+                            <a asp-action="faq" asp-controller="Home" class="nav__link active">Help & FAQs</a>
+                            <a asp-action="Careers" asp-controller="Home" class="nav__link">Careers</a>
                         </nav>
                     </div><!-- /.col-12 -->
                 </div><!-- /.row -->
@@ -80,7 +81,7 @@
                                     </div><!-- /.accordion-item-header -->
                                     <div id="collapse1" class="collapse" data-parent="#accordion">
                                         <div class="accordion__body">
-                                            <p>
+                                            <p class="p1">
                                                 With any financial product that you buy, it is important that you know
                                                 you are getting the best
                                                 advice from a reputable company as often
@@ -94,7 +95,7 @@
                                     </div><!-- /.accordion-item-header -->
                                     <div id="collapse2" class="collapse" data-parent="#accordion">
                                         <div class="accordion__body">
-                                            <p>
+                                            <p class="p1">
                                                 With any financial product that you buy, it is important that you know
                                                 you are getting the best
                                                 advice from a reputable company as often
@@ -108,7 +109,7 @@
                                     </div><!-- /.accordion-item-header -->
                                     <div id="collapse3" class="collapse show" data-parent="#accordion">
                                         <div class="accordion__body">
-                                            <p>
+                                            <p class="p1">
                                                 With any financial product that you buy, it is important that you know
                                                 you are getting the best
                                                 advice from a reputable company as often
@@ -122,7 +123,7 @@
                                     </div><!-- /.accordion-item-header -->
                                     <div id="collapse4" class="collapse" data-parent="#accordion">
                                         <div class="accordion__body">
-                                            <p>
+                                            <p class="p1">
                                                 With any financial product that you buy, it is important that you know
                                                 you are getting the best
                                                 advice from a reputable company as often
@@ -136,7 +137,7 @@
                                     </div><!-- /.accordion-item-header -->
                                     <div id="collapse5" class="collapse" data-parent="#accordion">
                                         <div class="accordion__body">
-                                            <p>
+                                            <p class="p1">
                                                 With any financial product that you buy, it is important that you know
                                                 you are getting the best
                                                 advice from a reputable company as often
@@ -152,7 +153,7 @@
                                     </div><!-- /.accordion-item-header -->
                                     <div id="collapse6" class="collapse" data-parent="#accordion">
                                         <div class="accordion__body">
-                                            <p>
+                                            <p class="p1">
                                                 With any financial product that you buy, it is important that you know
                                                 you are getting the best
                                                 advice from a reputable company as often
@@ -166,7 +167,7 @@
                                     </div><!-- /.accordion-item-header -->
                                     <div id="collapse7" class="collapse" data-parent="#accordion">
                                         <div class="accordion__body">
-                                            <p>
+                                            <p class="p1">
                                                 With any financial product that you buy, it is important that you know
                                                 you are getting the best
                                                 advice from a reputable company as often
@@ -180,7 +181,7 @@
                                     </div><!-- /.accordion-item-header -->
                                     <div id="collapse8" class="collapse" data-parent="#accordion">
                                         <div class="accordion__body">
-                                            <p>
+                                            <p class="p1">
                                                 With any financial product that you buy, it is important that you know
                                                 you are getting the best
                                                 advice from a reputable company as often
@@ -194,7 +195,7 @@
                                     </div><!-- /.accordion-item-header -->
                                     <div id="collapse9" class="collapse" data-parent="#accordion">
                                         <div class="accordion__body">
-                                            <p>
+                                            <p class="p1">
                                                 With any financial product that you buy, it is important that you know
                                                 you are getting the best
                                                 advice from a reputable company as often
@@ -211,7 +212,7 @@
                                     </div><!-- /.accordion-item-header -->
                                     <div id="collapse10" class="collapse show" data-parent="#accordion">
                                         <div class="accordion__body">
-                                            <p>
+                                            <p class="p1">
                                                 With any financial product that you buy, it is important that you know
                                                 you are getting the best
                                                 advice from a reputable company as often
