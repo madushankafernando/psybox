@@ -40,5 +40,10 @@ namespace psybox.Controllers
         {
             return View();
         }
+
+        public IActionResult BlockchainDevelopment()
+        {
+            return View();
+        }
     }
 }

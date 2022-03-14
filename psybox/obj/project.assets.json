@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/madushankafernando/Projects/psybox/psybox/psybox.csproj",
+      "projectUniqueName": "/Users/madushankafernando/Github/psybox/psybox/psybox.csproj",
       "projectName": "psybox",
-      "projectPath": "/Users/madushankafernando/Projects/psybox/psybox/psybox.csproj",
+      "projectPath": "/Users/madushankafernando/Github/psybox/psybox/psybox.csproj",
       "packagesPath": "/Users/madushankafernando/.nuget/packages/",
-      "outputPath": "/Users/madushankafernando/Projects/psybox/psybox/obj/",
+      "outputPath": "/Users/madushankafernando/Github/psybox/psybox/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/madushankafernando/.config/NuGet/NuGet.Config"
